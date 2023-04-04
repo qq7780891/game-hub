@@ -7,8 +7,8 @@ function App() {
         lg: `"nav nav" "aside main"`
     }}>
         <GridItem area='nav'><NavBar/></GridItem>
-        <GridItem area='aside' bg='gold'>Aside</GridItem>
-        <GridItem area='main' bg='dodgerblue'>Main</GridItem>
+        <GridItem area='aside'>Aside</GridItem>
+        <GridItem area='main' >Main</GridItem>
     </Grid>;
 }
 
