@@ -1,8 +1,3 @@
-import {useEffect} from "react";
-
-useEffect(() => {
-
-}, []);
 import {SimpleGrid, Text} from "@chakra-ui/react";
 import useGames from "../hooks/UseGames";
 import GameCard from "./GameCard";
