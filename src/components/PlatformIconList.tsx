@@ -12,11 +12,9 @@ import {BsGlobe} from 'react-icons/bs'
 import {Platform} from "../hooks/UseGames";
 import {HStack, Icon} from "@chakra-ui/react";
 import {IconType} from "react-icons";
-
 interface Props {
     platforms: Platform[]
 }
-
 function PlatformIconList({platforms}: Props) {
     const iconMap:{[key:string]:IconType}={
         pc:FaWindows,
